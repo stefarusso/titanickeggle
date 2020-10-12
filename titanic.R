@@ -4,7 +4,12 @@ test = data.frame(test)
 train = data.frame(train)
 train$Survived = as.factor(train$Survived)
 train$Pclass = as.factor(train$Pclass)
-test$Survived = as.factor(test$Survived)
 test$Pclass = as.factor(test$Pclass)
 #write.table(head(test),sep = " | ")
 library(ggplot2)
+#plot = ggplot(train)+
+#+ geom_bar(mapping=aes(x=Pclass,fill=Survived))
+# png("pclass.png")
+# print(plot)
+# dev.off()
+
