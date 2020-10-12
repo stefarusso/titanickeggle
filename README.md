@@ -9,5 +9,4 @@ Train dataset has few features, but not all of them can be used as dataset for t
 
 Pclass refers to the ticket class of the passenger and is a direct information of social class and economical wellness of the passenger whose surely changed the probability of surviving during sinking.
 Looking at the survival rate it clear that the class of the passenger change their survival probability.
-![test](/plot/pclass.png)
-<img src="/plot/pclass.png" width="40%">
+<img src="/plot/pclass.png" width="40%" class="center">
