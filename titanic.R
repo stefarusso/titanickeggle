@@ -9,7 +9,7 @@ test$Pclass = as.factor(test$Pclass)
 library(ggplot2)
 library(RColorBrewer)
 #display.brewer.all()
-
+#GRAFICI
 #plot = ggplot(train)+
 #+ geom_bar(mapping=aes(x=Pclass,fill=Survived))
 # png("pclass.png")
@@ -24,3 +24,7 @@ library(RColorBrewer)
 # print(plot)
 # dev.off()
 #rm(rates,tmp,plot)
+#plot = ggplot(train,aes(x=Sex, fill=Survived))+
+#geom_bar()+
+#facet_grid(cols=vars(Pclass),scales = "free_y")
+
