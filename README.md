@@ -11,3 +11,7 @@ Pclass refers to the ticket class of the passenger and is a direct information o
 Looking at the survival rate it clear that the class of the passenger change their survival probability.
 
 <img style="float: center;" src="/plot/pclass.png" width="40%" ><img style="float: center;" src="/plot/pclass_surv.png" width="40%" >
+
+The gender of the passanger has effects on the chance of surviving, even if the passenger class continue to be the most diagnostic feature. Looking at the women it can be seen how they have much higher probability to survive than men, but when they come from third class their probability drop to 0.5.
+
+<img style="float: center;" src="/plot/sex.png" width="40%" ><img style="float: center;" src="/plot/sex_pclass.png" width="40%" >
