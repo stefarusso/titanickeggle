@@ -25,5 +25,15 @@ summary(train$Age)
 
 ```
 
-There are 177 missing value on 891 total records, that can be a problem. There are few kind of way to deal with this issue, someone add the median value to the missing value, it's a cheap solution that has problem with; if there was more records it could been possible to use the existing 714 record as dataset to exitimate the missing ones with an another ML algoritm. But in this case I have seen many other people use another feature as indicator of passengers age, the name titles. Every name record it's composes as `Last_name, Title First_name (Maiden_name)` 
+There are 177 missing value on 891 total records, that can be a problem. There are few kind of way to deal with this issue, someone add the median value to the missing value, it's a cheap solution that has problem with; if there was more records it could been possible to use the existing 714 record as dataset to exitimate the missing ones with an another ML algoritm. But in this case I have seen many other people use another feature as indicator of passengers age, the name titles. Every name record it's composes as `Last_name, Title First_name (Maiden_name)` so with some string handling it's possible to extract all the titles from the names:
 
+```
+table(train$Title)
+
+     Capt       Col       Don        Dr  Jonkheer      Lady     Major    Master 
+        1         2         1         7         1         1         2        40 
+     Miss      Mlle       Mme        Mr       Mrs        Ms       Rev       Sir 
+      183         2         1       517       125         1         6         1 
+
+```
+most of the passangers can be classified as Mr and Mrs or Master and Miss, the other titles risk to lead an overfitting result so it's need to move those passenger titles in the most common four levels.
