@@ -25,7 +25,7 @@ summary(train$Age)
 
 ```
 
-There are 177 missing value on 891 total records, that can be a problem. There are few kind of way to deal with this issue, someone add the median value to the missing value, it's a cheap solution that has problem with; if there was more records it could been possible to use the existing 714 record as dataset to exitimate the missing ones with an another ML algoritm. But in this case I have seen many other people use another feature as indicator of passengers age, the name titles. Every name record it's composes as `Last_name, Title First_name (Maiden_name)` so with some string handling it's possible to extract all the titles from the names:
+There are 177 missing value on 891 total records, that can be a problem. There are few kind of way to deal with this issue, someone add the median value to the missing value, it's a cheap solution that I don't like particulary; if there was more records it could been possible to use the existing 714 record as dataset to exitimate the missing ones with an another ML algoritm. But in this case I have seen many other people use another feature as indicator of passengers age, the name titles. Every name record it's composes as `Last_name, Title First_name (Maiden_name)` so with some string handling it's possible to extract all the titles from the names:
 
 ```
 table(train$Title)
@@ -46,10 +46,13 @@ most of the passangers can be classified as Mr and Mrs or Master and Miss, the o
 633        1      1     Stahelin-Maeglin, Dr. Max   male  32    Dr
 661        1      1 Frauenthal, Dr. Henry William   male  50    Dr
 767        0      1     Brewe, Dr. Arthur Jackson   male  NA    Dr
-797        1      1   Leader, Dr. Alice (Farnham) female  49    Dr
+**797        1      1   Leader, Dr. Alice (Farnham) female  49    Dr**
 
 ```
 
 in my ingeniuity I assumed that Dr would be all old men, but there is a woman, a surprise for the time of Titanic.
+Looking at the probablity of surviving the sinking it's clear that the joung titles (Miss and Master) have much higher probability to survive rather than the older ones (Mrs and Mr).
+
+<img style="float: center;" src="/plot/titles_surv.png" width="40%" ><img style="float: center;" src="/plot/sex_pclass.png" width="40%" >
 
 
