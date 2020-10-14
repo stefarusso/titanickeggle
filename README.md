@@ -36,4 +36,20 @@ table(train$Title)
       183         2         1       517       125         1         6         1 
 
 ```
-most of the passangers can be classified as Mr and Mrs or Master and Miss, the other titles risk to lead an overfitting result so it's need to move those passenger titles in the most common four levels.
+most of the passangers can be classified as Mr and Mrs or Master and Miss, the other titles risk to lead an overfitting result so it's need to move those passenger titles in the most common four levels. For exemple Capt, Col and other military titles are indicative of men between 20 and 50 years old so they can be add to the Mr title. While looking inside the exeptions in the spare titles I have find something interesting:
+
+```
+    Survived Pclass                          Name    Sex Age Title
+246        0      1   Minahan, Dr. William Edward   male  44    Dr
+318        0      2          Moraweck, Dr. Ernest   male  54    Dr
+399        0      2              Pain, Dr. Alfred   male  23    Dr
+633        1      1     Stahelin-Maeglin, Dr. Max   male  32    Dr
+661        1      1 Frauenthal, Dr. Henry William   male  50    Dr
+767        0      1     Brewe, Dr. Arthur Jackson   male  NA    Dr
+797        1      1   Leader, Dr. Alice (Farnham) female  49    Dr
+
+```
+
+in my ingeniuity I assumed that Dr would be all old men, but there is a woman, a surprise for the time of Titanic.
+
+

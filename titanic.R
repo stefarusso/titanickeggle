@@ -28,10 +28,23 @@ library(RColorBrewer)
 #geom_bar()+
 #facet_grid(cols=vars(Pclass),scales = "free_y")
 
-
+#Titles cleaning
 library(stringr)
 train$Title = str_split_fixed(str_split_fixed(train$Name,",",2)[,2], ". ", 2)[,1]
 train$Title = as.factor(train$Title)
 train$Title[760]=" Miss" #the countess
+train[which(train$Title==" Ms"),"Title"]=" Miss"
+train[which(train$Title==" Capt"),"Title"]=" Mr"
+train[which(train$Title==" Col"),"Title"]=" Mr"
+train$Title[which(train$Title==" Major")] = " Mr"
+train$Title[which(train$Title==" Dr" & train$Sex=="female")] = " Miss"
+train$Title[which(train$Title==" Dr" & train$Sex=="male")] = " Mr"
+train$Title[which(train$Title==" Jonkheer")] = " Mr"
+train$Title[which(train$Title==" Lady")]=" Mrs"
+train$Title[which(train$Title==" Mlle")] = " Miss"
+train$Title[which(train$Title==" Mme")] = " Mrs"
+train$Title[which(train$Title==" Sir")] = " Mr"
+train$Title[which(train$Title==" Rev")] = " Mr"
+
 train$Title=droplevels(train$Title)
 
