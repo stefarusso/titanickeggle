@@ -28,6 +28,13 @@ library(RColorBrewer)
 #geom_bar()+
 #facet_grid(cols=vars(Pclass),scales = "free_y")
 
+#Age
+#
+#median
+#train$Age_median=train$Age
+#train$Age_median[is.na(train$Age)]=summary(train$Age)["Median"]
+
+
 #Titles cleaning
 library(stringr)
 train$Title = str_split_fixed(str_split_fixed(train$Name,",",2)[,2], ". ", 2)[,1]
@@ -45,6 +52,28 @@ train$Title[which(train$Title==" Mlle")] = " Miss"
 train$Title[which(train$Title==" Mme")] = " Mrs"
 train$Title[which(train$Title==" Sir")] = " Mr"
 train$Title[which(train$Title==" Rev")] = " Mr"
-
 train$Title=droplevels(train$Title)
 
+# plot = ggplot(train, aes(x=Title,fill=Survived))+
+# geom_bar()
+# png("titles_surv.png")
+# print(plot)
+# dev.off()
+
+#SibSp
+#
+#tmp=table(train[,c("SibSp","Survived")])
+#tmp=data.frame(SibSp=names(tmp),Surv_Rates=unname(tmp))
+as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}
+#
+# tmp=table(train[which(train$SibSp[which(train$Survived == 1)]==1),c("Age","Sex")])
+# tmp=data.frame(tmp)
+# as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}
+# tmp$Age = as.numeric.factor(tmp$Age)
+#
+#plot = ggplot(tmp)+
+# geom_jitter(mapping=aes(x=Age,y=Freq))+
+# facet_grid(cols=vars(Sex))
+# png('surv_1sbsp.png')
+# print(plot)
+# dev.off()

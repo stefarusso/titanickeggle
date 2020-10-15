@@ -55,4 +55,14 @@ Looking at the probablity of surviving the sinking it's clear that the joung tit
 
 <img style="float: center;" src="/plot/titles_surv.png" width="40%" ><img style="float: center;" src="/plot/sex_pclass.png" width="40%" >
 
+Next coloumn is SibSp that is the abreviation of Siblings and Spouse, it's clear that more sibsp you have less is your probability to survive.
+
+<img style="float: center;" src="/plot/sibsp.png" width="40%" ><img style="float: center;" src="/plot/surv_1sbsp.png" width="40%" >
+
+ The peak in 1 sibsp it's probably relate to couple of marryed people. Analyzing how it is distribuited the population of the ones who survived and had 1 sibsp we can see that it's pretty homogeneous beside the peak in 20-30y men, they are probably the ones who was on the boat only with their spouse. Only one has a child/parents on board indeed:
+
+```
+
+```
+
 
