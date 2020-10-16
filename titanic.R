@@ -77,3 +77,23 @@ as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}
 # png('surv_1sbsp.png')
 # print(plot)
 # dev.off()
+#
+#
+#Parch
+#
+#tmp = table(train[,c("Survived","Parch")])
+#tmp = tmp[2,]/colSums(tmp)
+#tmp = data.frame(Parch = names(tmp),Surv_rates=unname(tmp) )
+#plot = ggplot(tmp,aes(x=Parch,y=Surv_rates))+
+# geom_bar(stat='identity')+
+# labs(title="Survival probability while having parents or children on board")
+# png("parch.png")
+# print(plot)
+# dev.off
+#
+#FamiliSize
+train$FamilySize = train$SibSp + train$Parch
+#tmp = table(train[,c("Survived","FamilySize")])
+#tmp = tmp[2,]/colSums(tmp)
+#tmp = data.frame(Family_size=names(tmp),surv_rates=unname(tmp))
+
