@@ -19,7 +19,7 @@ The gender of the passanger has effects on the chance of surviving, even if the 
 Another important feature of the dataset is the age. Young men are very likley to not survive if they are compared to children. But this coloumn has a problem: 
 
 ```
-summary(train$Age)
+>summary(train$Age)
    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
    0.42   20.12   28.00   29.70   38.00   80.00     177 
 
@@ -28,7 +28,7 @@ summary(train$Age)
 There are 177 missing value on 891 total records, that can be a problem. There are few kind of way to deal with this issue, someone add the median value to the missing value, it's a cheap solution that I don't like particulary; if there was more records it could been possible to use the existing 714 record as dataset to exitimate the missing ones with an another ML algoritm. But in this case I have seen many other people use another feature as indicator of passengers age, the name titles. Every name record it's composes as `Last_name, Title First_name (Maiden_name)` so with some string handling it's possible to extract all the titles from the names:
 
 ```
-table(train$Title)
+>table(train$Title)
 
      Capt       Col       Don        Dr  Jonkheer      Lady     Major    Master 
         1         2         1         7         1         1         2        40 
@@ -63,8 +63,18 @@ Next coloumn is SibSp that is the abreviation of Siblings and Spouse, it's clear
 
 <img style="float: center;" src="/plot/family.png" width="40%" >
 
-The more likely to survive were the people who had a small family around 2-4 people. If your family was above 5 people or you was alone on boat your probability rapidly have dropped.
+The more likely to survive were the people who had a small family around 2-4 people. If your family was above 5 people or you was alone on boat your probability rapidly drop.
 
 The other coloumns don't seems to be particular interesting: the number of the ticket or the cabin, such as the fare paid are linked to the class of the passangers; the site where the passengers embarked on titanic has nothing to do on their probability to survive so don't interest us and we can drop those coloumns.
+In the end I have the cleaned dataframe whose will be exported as csv to be imported to python were all the popular ML algorithms have libraries that in few cases are more practical than the ones on R.
 
-
+```
+>str(train)
+'data.frame':	891 obs. of  6 variables:
+ $ Survived  : Factor w/ 2 levels "0","1": 1 2 2 2 1 1 1 1 2 2 ...
+ $ Pclass    : Factor w/ 3 levels "1","2","3": 3 1 3 1 3 3 1 3 3 2 ...
+ $ Name      : Factor w/ 891 levels "Abbing, Mr. Anthony",..: 109 191 358 277 16 559 520 629 417 581 ...
+ $ Sex       : Factor w/ 2 levels "female","male": 2 1 1 1 2 2 2 2 1 1 ...
+ $ Title     : Factor w/ 5 levels " Don"," Master",..: 4 5 3 5 4 4 4 2 5 5 ...
+ $ FamilySize: int  1 1 0 1 0 0 0 4 2 1 ...
+```

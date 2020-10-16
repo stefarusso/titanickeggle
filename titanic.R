@@ -1,3 +1,4 @@
+#ANALISI DATI---------------------------------------------------------
 test = read.csv(file = 'data/test.csv')
 train = read.csv(file = 'data/train.csv')
 test = data.frame(test)
@@ -31,8 +32,8 @@ library(RColorBrewer)
 #Age
 #
 #median
-#train$Age_median=train$Age
-#train$Age_median[is.na(train$Age)]=summary(train$Age)["Median"]
+train$Age_median=train$Age
+train$Age_median[is.na(train$Age)]=summary(train$Age)["Median"]
 
 
 #Titles cleaning
@@ -96,4 +97,13 @@ train$FamilySize = train$SibSp + train$Parch
 #tmp = table(train[,c("Survived","FamilySize")])
 #tmp = tmp[2,]/colSums(tmp)
 #tmp = data.frame(Family_size=names(tmp),surv_rates=unname(tmp))
+#rm(tmp,plot)
+
+
+
+#ML--------------------------------------------------
+train_BAK=train
+train=train_BAK[,c(1:5,13,14:15)]
+#write.csv(train,file='train_clean.csv')
+
 
