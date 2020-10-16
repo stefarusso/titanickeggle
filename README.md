@@ -60,7 +60,9 @@ Next coloumn is SibSp that is the abreviation of Siblings and Spouse, it's clear
 <img style="float: center;" src="/plot/sibsp.png" width="40%" ><img style="float: center;" src="/plot/surv_1sbsp.png" width="40%" >
 
  The peak in 1 sibsp it's probably relate to couple of marryed people. Analyzing how it is distribuited the population of the ones who survived and had 1 sibsp we can see that it's pretty homogeneous beside the peak in 20-30y men, they are probably the ones who was on the boat only with their spouse. For sure even the Parch (Parents or children) has an important role in defining how is likley to died on a sinking boat, probably the ones with bigger family as less probability to survive like the lonely ones. in some part Sibsp and Parch overlap the same information so it's more practical to unite the two info in only one FamilySize information: 
+
 <img style="float: center;" src="/plot/family.png" width="40%" >
+
 The more likely to survive were the people who had a small family around 2-4 people. If your family was above 5 people or you was alone on boat your probability rapidly have dropped.
 
 The other coloumns don't seems to be particular interesting: the number of the ticket or the cabin, such as the fare paid are linked to the class of the passangers; the site where the passengers embarked on titanic has nothing to do on their probability to survive so don't interest us and we can drop those coloumns.
