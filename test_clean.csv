@@ -1,0 +1,419 @@
+"","PassengerId","Pclass","Name","Sex","Age_median","Title","FamilySize"
+"1",892,"3","Kelly, Mr. James","male",34.5," Mr",0
+"2",893,"3","Wilkes, Mrs. James (Ellen Needs)","female",47," Mrs",1
+"3",894,"2","Myles, Mr. Thomas Francis","male",62," Mr",0
+"4",895,"3","Wirz, Mr. Albert","male",27," Mr",0
+"5",896,"3","Hirvonen, Mrs. Alexander (Helga E Lindqvist)","female",22," Mrs",2
+"6",897,"3","Svensson, Mr. Johan Cervin","male",14," Mr",0
+"7",898,"3","Connolly, Miss. Kate","female",30," Miss",0
+"8",899,"2","Caldwell, Mr. Albert Francis","male",26," Mr",2
+"9",900,"3","Abrahim, Mrs. Joseph (Sophie Halaut Easu)","female",18," Mrs",0
+"10",901,"3","Davies, Mr. John Samuel","male",21," Mr",2
+"11",902,"3","Ilieff, Mr. Ylio","male",27," Mr",0
+"12",903,"1","Jones, Mr. Charles Cresson","male",46," Mr",0
+"13",904,"1","Snyder, Mrs. John Pillsbury (Nelle Stevenson)","female",23," Mrs",1
+"14",905,"2","Howard, Mr. Benjamin","male",63," Mr",1
+"15",906,"1","Chaffee, Mrs. Herbert Fuller (Carrie Constance Toogood)","female",47," Mrs",1
+"16",907,"2","del Carlo, Mrs. Sebastiano (Argenia Genovesi)","female",24," Mrs",1
+"17",908,"2","Keane, Mr. Daniel","male",35," Mr",0
+"18",909,"3","Assaf, Mr. Gerios","male",21," Mr",0
+"19",910,"3","Ilmakangas, Miss. Ida Livija","female",27," Miss",1
+"20",911,"3","Assaf Khalil, Mrs. Mariana (Miriam"")""","female",45," Mrs",0
+"21",912,"1","Rothschild, Mr. Martin","male",55," Mr",1
+"22",913,"3","Olsen, Master. Artur Karl","male",9," Master",1
+"23",914,"1","Flegenheim, Mrs. Alfred (Antoinette)","female",27," Mrs",0
+"24",915,"1","Williams, Mr. Richard Norris II","male",21," Mr",1
+"25",916,"1","Ryerson, Mrs. Arthur Larned (Emily Maria Borie)","female",48," Mrs",4
+"26",917,"3","Robins, Mr. Alexander A","male",50," Mr",1
+"27",918,"1","Ostby, Miss. Helene Ragnhild","female",22," Miss",1
+"28",919,"3","Daher, Mr. Shedid","male",22.5," Mr",0
+"29",920,"1","Brady, Mr. John Bertram","male",41," Mr",0
+"30",921,"3","Samaan, Mr. Elias","male",27," Mr",2
+"31",922,"2","Louch, Mr. Charles Alexander","male",50," Mr",1
+"32",923,"2","Jefferys, Mr. Clifford Thomas","male",24," Mr",2
+"33",924,"3","Dean, Mrs. Bertram (Eva Georgetta Light)","female",33," Mrs",3
+"34",925,"3","Johnston, Mrs. Andrew G (Elizabeth Lily"" Watson)""","female",27," Mrs",3
+"35",926,"1","Mock, Mr. Philipp Edmund","male",30," Mr",1
+"36",927,"3","Katavelas, Mr. Vassilios (Catavelas Vassilios"")""","male",18.5," Mr",0
+"37",928,"3","Roth, Miss. Sarah A","female",27," Miss",0
+"38",929,"3","Cacic, Miss. Manda","female",21," Miss",0
+"39",930,"3","Sap, Mr. Julius","male",25," Mr",0
+"40",931,"3","Hee, Mr. Ling","male",27," Mr",0
+"41",932,"3","Karun, Mr. Franz","male",39," Mr",1
+"42",933,"1","Franklin, Mr. Thomas Parham","male",27," Mr",0
+"43",934,"3","Goldsmith, Mr. Nathan","male",41," Mr",0
+"44",935,"2","Corbett, Mrs. Walter H (Irene Colvin)","female",30," Mrs",0
+"45",936,"1","Kimball, Mrs. Edwin Nelson Jr (Gertrude Parsons)","female",45," Mrs",1
+"46",937,"3","Peltomaki, Mr. Nikolai Johannes","male",25," Mr",0
+"47",938,"1","Chevre, Mr. Paul Romaine","male",45," Mr",0
+"48",939,"3","Shaughnessy, Mr. Patrick","male",27," Mr",0
+"49",940,"1","Bucknell, Mrs. William Robert (Emma Eliza Ward)","female",60," Mrs",0
+"50",941,"3","Coutts, Mrs. William (Winnie Minnie"" Treanor)""","female",36," Mrs",2
+"51",942,"1","Smith, Mr. Lucien Philip","male",24," Mr",1
+"52",943,"2","Pulbaum, Mr. Franz","male",27," Mr",0
+"53",944,"2","Hocking, Miss. Ellen Nellie""""","female",20," Miss",3
+"54",945,"1","Fortune, Miss. Ethel Flora","female",28," Miss",5
+"55",946,"2","Mangiavacchi, Mr. Serafino Emilio","male",27," Mr",0
+"56",947,"3","Rice, Master. Albert","male",10," Master",5
+"57",948,"3","Cor, Mr. Bartol","male",35," Mr",0
+"58",949,"3","Abelseth, Mr. Olaus Jorgensen","male",25," Mr",0
+"59",950,"3","Davison, Mr. Thomas Henry","male",27," Mr",1
+"60",951,"1","Chaudanson, Miss. Victorine","female",36," Miss",0
+"61",952,"3","Dika, Mr. Mirko","male",17," Mr",0
+"62",953,"2","McCrae, Mr. Arthur Gordon","male",32," Mr",0
+"63",954,"3","Bjorklund, Mr. Ernst Herbert","male",18," Mr",0
+"64",955,"3","Bradley, Miss. Bridget Delia","female",22," Miss",0
+"65",956,"1","Ryerson, Master. John Borie","male",13," Master",4
+"66",957,"2","Corey, Mrs. Percy C (Mary Phyllis Elizabeth Miller)","female",27," Mrs",0
+"67",958,"3","Burns, Miss. Mary Delia","female",18," Miss",0
+"68",959,"1","Moore, Mr. Clarence Bloomfield","male",47," Mr",0
+"69",960,"1","Tucker, Mr. Gilbert Milligan Jr","male",31," Mr",0
+"70",961,"1","Fortune, Mrs. Mark (Mary McDougald)","female",60," Mrs",5
+"71",962,"3","Mulvihill, Miss. Bertha E","female",24," Miss",0
+"72",963,"3","Minkoff, Mr. Lazar","male",21," Mr",0
+"73",964,"3","Nieminen, Miss. Manta Josefina","female",29," Miss",0
+"74",965,"1","Ovies y Rodriguez, Mr. Servando","male",28.5," Mr",0
+"75",966,"1","Geiger, Miss. Amalie","female",35," Miss",0
+"76",967,"1","Keeping, Mr. Edwin","male",32.5," Mr",0
+"77",968,"3","Miles, Mr. Frank","male",27," Mr",0
+"78",969,"1","Cornell, Mrs. Robert Clifford (Malvina Helen Lamson)","female",55," Mrs",2
+"79",970,"2","Aldworth, Mr. Charles Augustus","male",30," Mr",0
+"80",971,"3","Doyle, Miss. Elizabeth","female",24," Miss",0
+"81",972,"3","Boulos, Master. Akar","male",6," Master",2
+"82",973,"1","Straus, Mr. Isidor","male",67," Mr",1
+"83",974,"1","Case, Mr. Howard Brown","male",49," Mr",0
+"84",975,"3","Demetri, Mr. Marinko","male",27," Mr",0
+"85",976,"2","Lamb, Mr. John Joseph","male",27," Mr",0
+"86",977,"3","Khalil, Mr. Betros","male",27," Mr",1
+"87",978,"3","Barry, Miss. Julia","female",27," Miss",0
+"88",979,"3","Badman, Miss. Emily Louisa","female",18," Miss",0
+"89",980,"3","O'Donoghue, Ms. Bridget","female",27," Miss",0
+"90",981,"2","Wells, Master. Ralph Lester","male",2," Master",2
+"91",982,"3","Dyker, Mrs. Adolf Fredrik (Anna Elisabeth Judith Andersson)","female",22," Mrs",1
+"92",983,"3","Pedersen, Mr. Olaf","male",27," Mr",0
+"93",984,"1","Davidson, Mrs. Thornton (Orian Hays)","female",27," Mrs",3
+"94",985,"3","Guest, Mr. Robert","male",27," Mr",0
+"95",986,"1","Birnbaum, Mr. Jakob","male",25," Mr",0
+"96",987,"3","Tenglin, Mr. Gunnar Isidor","male",25," Mr",0
+"97",988,"1","Cavendish, Mrs. Tyrell William (Julia Florence Siegel)","female",76," Mrs",1
+"98",989,"3","Makinen, Mr. Kalle Edvard","male",29," Mr",0
+"99",990,"3","Braf, Miss. Elin Ester Maria","female",20," Miss",0
+"100",991,"3","Nancarrow, Mr. William Henry","male",33," Mr",0
+"101",992,"1","Stengel, Mrs. Charles Emil Henry (Annie May Morris)","female",43," Mrs",1
+"102",993,"2","Weisz, Mr. Leopold","male",27," Mr",1
+"103",994,"3","Foley, Mr. William","male",27," Mr",0
+"104",995,"3","Johansson Palmquist, Mr. Oskar Leander","male",26," Mr",0
+"105",996,"3","Thomas, Mrs. Alexander (Thamine Thelma"")""","female",16," Mrs",2
+"106",997,"3","Holthen, Mr. Johan Martin","male",28," Mr",0
+"107",998,"3","Buckley, Mr. Daniel","male",21," Mr",0
+"108",999,"3","Ryan, Mr. Edward","male",27," Mr",0
+"109",1000,"3","Willer, Mr. Aaron (Abi Weller"")""","male",27," Mr",0
+"110",1001,"2","Swane, Mr. George","male",18.5," Mr",0
+"111",1002,"2","Stanton, Mr. Samuel Ward","male",41," Mr",0
+"112",1003,"3","Shine, Miss. Ellen Natalia","female",27," Miss",0
+"113",1004,"1","Evans, Miss. Edith Corse","female",36," Miss",0
+"114",1005,"3","Buckley, Miss. Katherine","female",18.5," Miss",0
+"115",1006,"1","Straus, Mrs. Isidor (Rosalie Ida Blun)","female",63," Mrs",1
+"116",1007,"3","Chronopoulos, Mr. Demetrios","male",18," Mr",1
+"117",1008,"3","Thomas, Mr. John","male",27," Mr",0
+"118",1009,"3","Sandstrom, Miss. Beatrice Irene","female",1," Miss",2
+"119",1010,"1","Beattie, Mr. Thomson","male",36," Mr",0
+"120",1011,"2","Chapman, Mrs. John Henry (Sara Elizabeth Lawry)","female",29," Mrs",1
+"121",1012,"2","Watt, Miss. Bertha J","female",12," Miss",0
+"122",1013,"3","Kiernan, Mr. John","male",27," Mr",1
+"123",1014,"1","Schabert, Mrs. Paul (Emma Mock)","female",35," Mrs",1
+"124",1015,"3","Carver, Mr. Alfred John","male",28," Mr",0
+"125",1016,"3","Kennedy, Mr. John","male",27," Mr",0
+"126",1017,"3","Cribb, Miss. Laura Alice","female",17," Miss",1
+"127",1018,"3","Brobeck, Mr. Karl Rudolf","male",22," Mr",0
+"128",1019,"3","McCoy, Miss. Alicia","female",27," Miss",2
+"129",1020,"2","Bowenur, Mr. Solomon","male",42," Mr",0
+"130",1021,"3","Petersen, Mr. Marius","male",24," Mr",0
+"131",1022,"3","Spinner, Mr. Henry John","male",32," Mr",0
+"132",1023,"1","Gracie, Col. Archibald IV","male",53," Mr",0
+"133",1024,"3","Lefebre, Mrs. Frank (Frances)","female",27," Mrs",4
+"134",1025,"3","Thomas, Mr. Charles P","male",27," Mr",1
+"135",1026,"3","Dintcheff, Mr. Valtcho","male",43," Mr",0
+"136",1027,"3","Carlsson, Mr. Carl Robert","male",24," Mr",0
+"137",1028,"3","Zakarian, Mr. Mapriededer","male",26.5," Mr",0
+"138",1029,"2","Schmidt, Mr. August","male",26," Mr",0
+"139",1030,"3","Drapkin, Miss. Jennie","female",23," Miss",0
+"140",1031,"3","Goodwin, Mr. Charles Frederick","male",40," Mr",7
+"141",1032,"3","Goodwin, Miss. Jessie Allis","female",10," Miss",7
+"142",1033,"1","Daniels, Miss. Sarah","female",33," Miss",0
+"143",1034,"1","Ryerson, Mr. Arthur Larned","male",61," Mr",4
+"144",1035,"2","Beauchamp, Mr. Henry James","male",28," Mr",0
+"145",1036,"1","Lindeberg-Lind, Mr. Erik Gustaf (Mr Edward Lingrey"")""","male",42," Mr",0
+"146",1037,"3","Vander Planke, Mr. Julius","male",31," Mr",3
+"147",1038,"1","Hilliard, Mr. Herbert Henry","male",27," Mr",0
+"148",1039,"3","Davies, Mr. Evan","male",22," Mr",0
+"149",1040,"1","Crafton, Mr. John Bertram","male",27," Mr",0
+"150",1041,"2","Lahtinen, Rev. William","male",30," Mr",2
+"151",1042,"1","Earnshaw, Mrs. Boulton (Olive Potter)","female",23," Mrs",1
+"152",1043,"3","Matinoff, Mr. Nicola","male",27," Mr",0
+"153",1044,"3","Storey, Mr. Thomas","male",60.5," Mr",0
+"154",1045,"3","Klasen, Mrs. (Hulda Kristina Eugenia Lofqvist)","female",36," Mrs",2
+"155",1046,"3","Asplund, Master. Filip Oscar","male",13," Master",6
+"156",1047,"3","Duquemin, Mr. Joseph","male",24," Mr",0
+"157",1048,"1","Bird, Miss. Ellen","female",29," Miss",0
+"158",1049,"3","Lundin, Miss. Olga Elida","female",23," Miss",0
+"159",1050,"1","Borebank, Mr. John James","male",42," Mr",0
+"160",1051,"3","Peacock, Mrs. Benjamin (Edith Nile)","female",26," Mrs",2
+"161",1052,"3","Smyth, Miss. Julia","female",27," Miss",0
+"162",1053,"3","Touma, Master. Georges Youssef","male",7," Master",2
+"163",1054,"2","Wright, Miss. Marion","female",26," Miss",0
+"164",1055,"3","Pearce, Mr. Ernest","male",27," Mr",0
+"165",1056,"2","Peruschitz, Rev. Joseph Maria","male",41," Mr",0
+"166",1057,"3","Kink-Heilmann, Mrs. Anton (Luise Heilmann)","female",26," Mrs",2
+"167",1058,"1","Brandeis, Mr. Emil","male",48," Mr",0
+"168",1059,"3","Ford, Mr. Edward Watson","male",18," Mr",4
+"169",1060,"1","Cassebeer, Mrs. Henry Arthur Jr (Eleanor Genevieve Fosdick)","female",27," Mrs",0
+"170",1061,"3","Hellstrom, Miss. Hilda Maria","female",22," Miss",0
+"171",1062,"3","Lithman, Mr. Simon","male",27," Mr",0
+"172",1063,"3","Zakarian, Mr. Ortin","male",27," Mr",0
+"173",1064,"3","Dyker, Mr. Adolf Fredrik","male",23," Mr",1
+"174",1065,"3","Torfa, Mr. Assad","male",27," Mr",0
+"175",1066,"3","Asplund, Mr. Carl Oscar Vilhelm Gustafsson","male",40," Mr",6
+"176",1067,"2","Brown, Miss. Edith Eileen","female",15," Miss",2
+"177",1068,"2","Sincock, Miss. Maude","female",20," Miss",0
+"178",1069,"1","Stengel, Mr. Charles Emil Henry","male",54," Mr",1
+"179",1070,"2","Becker, Mrs. Allen Oliver (Nellie E Baumgardner)","female",36," Mrs",3
+"180",1071,"1","Compton, Mrs. Alexander Taylor (Mary Eliza Ingersoll)","female",64," Mrs",2
+"181",1072,"2","McCrie, Mr. James Matthew","male",30," Mr",0
+"182",1073,"1","Compton, Mr. Alexander Taylor Jr","male",37," Mr",2
+"183",1074,"1","Marvin, Mrs. Daniel Warner (Mary Graham Carmichael Farquarson)","female",18," Mrs",1
+"184",1075,"3","Lane, Mr. Patrick","male",27," Mr",0
+"185",1076,"1","Douglas, Mrs. Frederick Charles (Mary Helene Baxter)","female",27," Mrs",2
+"186",1077,"2","Maybery, Mr. Frank Hubert","male",40," Mr",0
+"187",1078,"2","Phillips, Miss. Alice Frances Louisa","female",21," Miss",1
+"188",1079,"3","Davies, Mr. Joseph","male",17," Mr",2
+"189",1080,"3","Sage, Miss. Ada","female",27," Miss",10
+"190",1081,"2","Veal, Mr. James","male",40," Mr",0
+"191",1082,"2","Angle, Mr. William A","male",34," Mr",1
+"192",1083,"1","Salomon, Mr. Abraham L","male",27," Mr",0
+"193",1084,"3","van Billiard, Master. Walter John","male",11.5," Master",2
+"194",1085,"2","Lingane, Mr. John","male",61," Mr",0
+"195",1086,"2","Drew, Master. Marshall Brines","male",8," Master",2
+"196",1087,"3","Karlsson, Mr. Julius Konrad Eugen","male",33," Mr",0
+"197",1088,"1","Spedden, Master. Robert Douglas","male",6," Master",2
+"198",1089,"3","Nilsson, Miss. Berta Olivia","female",18," Miss",0
+"199",1090,"2","Baimbrigge, Mr. Charles Robert","male",23," Mr",0
+"200",1091,"3","Rasmussen, Mrs. (Lena Jacobsen Solvang)","female",27," Mrs",0
+"201",1092,"3","Murphy, Miss. Nora","female",27," Miss",0
+"202",1093,"3","Danbom, Master. Gilbert Sigvard Emanuel","male",0.33," Master",2
+"203",1094,"1","Astor, Col. John Jacob","male",47," Mr",1
+"204",1095,"2","Quick, Miss. Winifred Vera","female",8," Miss",2
+"205",1096,"2","Andrew, Mr. Frank Thomas","male",25," Mr",0
+"206",1097,"1","Omont, Mr. Alfred Fernand","male",27," Mr",0
+"207",1098,"3","McGowan, Miss. Katherine","female",35," Miss",0
+"208",1099,"2","Collett, Mr. Sidney C Stuart","male",24," Mr",0
+"209",1100,"1","Rosenbaum, Miss. Edith Louise","female",33," Miss",0
+"210",1101,"3","Delalic, Mr. Redjo","male",25," Mr",0
+"211",1102,"3","Andersen, Mr. Albert Karvin","male",32," Mr",0
+"212",1103,"3","Finoli, Mr. Luigi","male",27," Mr",0
+"213",1104,"2","Deacon, Mr. Percy William","male",17," Mr",0
+"214",1105,"2","Howard, Mrs. Benjamin (Ellen Truelove Arman)","female",60," Mrs",1
+"215",1106,"3","Andersson, Miss. Ida Augusta Margareta","female",38," Miss",6
+"216",1107,"1","Head, Mr. Christopher","male",42," Mr",0
+"217",1108,"3","Mahon, Miss. Bridget Delia","female",27," Miss",0
+"218",1109,"1","Wick, Mr. George Dennick","male",57," Mr",2
+"219",1110,"1","Widener, Mrs. George Dunton (Eleanor Elkins)","female",50," Mrs",2
+"220",1111,"3","Thomson, Mr. Alexander Morrison","male",27," Mr",0
+"221",1112,"2","Duran y More, Miss. Florentina","female",30," Miss",1
+"222",1113,"3","Reynolds, Mr. Harold J","male",21," Mr",0
+"223",1114,"2","Cook, Mrs. (Selena Rogers)","female",22," Mrs",0
+"224",1115,"3","Karlsson, Mr. Einar Gervasius","male",21," Mr",0
+"225",1116,"1","Candee, Mrs. Edward (Helen Churchill Hungerford)","female",53," Mrs",0
+"226",1117,"3","Moubarek, Mrs. George (Omine Amenia"" Alexander)""","female",27," Mrs",2
+"227",1118,"3","Asplund, Mr. Johan Charles","male",23," Mr",0
+"228",1119,"3","McNeill, Miss. Bridget","female",27," Miss",0
+"229",1120,"3","Everett, Mr. Thomas James","male",40.5," Mr",0
+"230",1121,"2","Hocking, Mr. Samuel James Metcalfe","male",36," Mr",0
+"231",1122,"2","Sweet, Mr. George Frederick","male",14," Mr",0
+"232",1123,"1","Willard, Miss. Constance","female",21," Miss",0
+"233",1124,"3","Wiklund, Mr. Karl Johan","male",21," Mr",1
+"234",1125,"3","Linehan, Mr. Michael","male",27," Mr",0
+"235",1126,"1","Cumings, Mr. John Bradley","male",39," Mr",1
+"236",1127,"3","Vendel, Mr. Olof Edvin","male",20," Mr",0
+"237",1128,"1","Warren, Mr. Frank Manley","male",64," Mr",1
+"238",1129,"3","Baccos, Mr. Raffull","male",20," Mr",0
+"239",1130,"2","Hiltunen, Miss. Marta","female",18," Miss",2
+"240",1131,"1","Douglas, Mrs. Walter Donald (Mahala Dutton)","female",48," Mrs",1
+"241",1132,"1","Lindstrom, Mrs. Carl Johan (Sigrid Posse)","female",55," Mrs",0
+"242",1133,"2","Christy, Mrs. (Alice Frances)","female",45," Mrs",2
+"243",1134,"1","Spedden, Mr. Frederic Oakley","male",45," Mr",2
+"244",1135,"3","Hyman, Mr. Abraham","male",27," Mr",0
+"245",1136,"3","Johnston, Master. William Arthur Willie""""","male",27," Master",3
+"246",1137,"1","Kenyon, Mr. Frederick R","male",41," Mr",1
+"247",1138,"2","Karnes, Mrs. J Frank (Claire Bennett)","female",22," Mrs",0
+"248",1139,"2","Drew, Mr. James Vivian","male",42," Mr",2
+"249",1140,"2","Hold, Mrs. Stephen (Annie Margaret Hill)","female",29," Mrs",1
+"250",1141,"3","Khalil, Mrs. Betros (Zahie Maria"" Elias)""","female",27," Mrs",1
+"251",1142,"2","West, Miss. Barbara J","female",0.92," Miss",3
+"252",1143,"3","Abrahamsson, Mr. Abraham August Johannes","male",20," Mr",0
+"253",1144,"1","Clark, Mr. Walter Miller","male",27," Mr",1
+"254",1145,"3","Salander, Mr. Karl Johan","male",24," Mr",0
+"255",1146,"3","Wenzel, Mr. Linhart","male",32.5," Mr",0
+"256",1147,"3","MacKay, Mr. George William","male",27," Mr",0
+"257",1148,"3","Mahon, Mr. John","male",27," Mr",0
+"258",1149,"3","Niklasson, Mr. Samuel","male",28," Mr",0
+"259",1150,"2","Bentham, Miss. Lilian W","female",19," Miss",0
+"260",1151,"3","Midtsjo, Mr. Karl Albert","male",21," Mr",0
+"261",1152,"3","de Messemaeker, Mr. Guillaume Joseph","male",36.5," Mr",1
+"262",1153,"3","Nilsson, Mr. August Ferdinand","male",21," Mr",0
+"263",1154,"2","Wells, Mrs. Arthur Henry (Addie"" Dart Trevaskis)""","female",29," Mrs",2
+"264",1155,"3","Klasen, Miss. Gertrud Emilia","female",1," Miss",2
+"265",1156,"2","Portaluppi, Mr. Emilio Ilario Giuseppe","male",30," Mr",0
+"266",1157,"3","Lyntakoff, Mr. Stanko","male",27," Mr",0
+"267",1158,"1","Chisholm, Mr. Roderick Robert Crispin","male",27," Mr",0
+"268",1159,"3","Warren, Mr. Charles William","male",27," Mr",0
+"269",1160,"3","Howard, Miss. May Elizabeth","female",27," Miss",0
+"270",1161,"3","Pokrnic, Mr. Mate","male",17," Mr",0
+"271",1162,"1","McCaffry, Mr. Thomas Francis","male",46," Mr",0
+"272",1163,"3","Fox, Mr. Patrick","male",27," Mr",0
+"273",1164,"1","Clark, Mrs. Walter Miller (Virginia McDowell)","female",26," Mrs",1
+"274",1165,"3","Lennon, Miss. Mary","female",27," Miss",1
+"275",1166,"3","Saade, Mr. Jean Nassr","male",27," Mr",0
+"276",1167,"2","Bryhl, Miss. Dagmar Jenny Ingeborg ","female",20," Miss",1
+"277",1168,"2","Parker, Mr. Clifford Richard","male",28," Mr",0
+"278",1169,"2","Faunthorpe, Mr. Harry","male",40," Mr",1
+"279",1170,"2","Ware, Mr. John James","male",30," Mr",1
+"280",1171,"2","Oxenham, Mr. Percy Thomas","male",22," Mr",0
+"281",1172,"3","Oreskovic, Miss. Jelka","female",23," Miss",0
+"282",1173,"3","Peacock, Master. Alfred Edward","male",0.75," Master",2
+"283",1174,"3","Fleming, Miss. Honora","female",27," Miss",0
+"284",1175,"3","Touma, Miss. Maria Youssef","female",9," Miss",2
+"285",1176,"3","Rosblom, Miss. Salli Helena","female",2," Miss",2
+"286",1177,"3","Dennis, Mr. William","male",36," Mr",0
+"287",1178,"3","Franklin, Mr. Charles (Charles Fardon)","male",27," Mr",0
+"288",1179,"1","Snyder, Mr. John Pillsbury","male",24," Mr",1
+"289",1180,"3","Mardirosian, Mr. Sarkis","male",27," Mr",0
+"290",1181,"3","Ford, Mr. Arthur","male",27," Mr",0
+"291",1182,"1","Rheims, Mr. George Alexander Lucien","male",27," Mr",0
+"292",1183,"3","Daly, Miss. Margaret Marcella Maggie""""","female",30," Miss",0
+"293",1184,"3","Nasr, Mr. Mustafa","male",27," Mr",0
+"294",1185,"1","Dodge, Dr. Washington","male",53," Mr",2
+"295",1186,"3","Wittevrongel, Mr. Camille","male",36," Mr",0
+"296",1187,"3","Angheloff, Mr. Minko","male",26," Mr",0
+"297",1188,"2","Laroche, Miss. Louise","female",1," Miss",3
+"298",1189,"3","Samaan, Mr. Hanna","male",27," Mr",2
+"299",1190,"1","Loring, Mr. Joseph Holland","male",30," Mr",0
+"300",1191,"3","Johansson, Mr. Nils","male",29," Mr",0
+"301",1192,"3","Olsson, Mr. Oscar Wilhelm","male",32," Mr",0
+"302",1193,"2","Malachard, Mr. Noel","male",27," Mr",0
+"303",1194,"2","Phillips, Mr. Escott Robert","male",43," Mr",1
+"304",1195,"3","Pokrnic, Mr. Tome","male",24," Mr",0
+"305",1196,"3","McCarthy, Miss. Catherine Katie""""","female",27," Miss",0
+"306",1197,"1","Crosby, Mrs. Edward Gifford (Catherine Elizabeth Halstead)","female",64," Mrs",2
+"307",1198,"1","Allison, Mr. Hudson Joshua Creighton","male",30," Mr",3
+"308",1199,"3","Aks, Master. Philip Frank","male",0.83," Master",1
+"309",1200,"1","Hays, Mr. Charles Melville","male",55," Mr",2
+"310",1201,"3","Hansen, Mrs. Claus Peter (Jennie L Howard)","female",45," Mrs",1
+"311",1202,"3","Cacic, Mr. Jego Grga","male",18," Mr",0
+"312",1203,"3","Vartanian, Mr. David","male",22," Mr",0
+"313",1204,"3","Sadowitz, Mr. Harry","male",27," Mr",0
+"314",1205,"3","Carr, Miss. Jeannie","female",37," Miss",0
+"315",1206,"1","White, Mrs. John Stuart (Ella Holmes)","female",55," Mrs",0
+"316",1207,"3","Hagardon, Miss. Kate","female",17," Miss",0
+"317",1208,"1","Spencer, Mr. William Augustus","male",57," Mr",1
+"318",1209,"2","Rogers, Mr. Reginald Harry","male",19," Mr",0
+"319",1210,"3","Jonsson, Mr. Nils Hilding","male",27," Mr",0
+"320",1211,"2","Jefferys, Mr. Ernest Wilfred","male",22," Mr",2
+"321",1212,"3","Andersson, Mr. Johan Samuel","male",26," Mr",0
+"322",1213,"3","Krekorian, Mr. Neshan","male",25," Mr",0
+"323",1214,"2","Nesson, Mr. Israel","male",26," Mr",0
+"324",1215,"1","Rowe, Mr. Alfred G","male",33," Mr",0
+"325",1216,"1","Kreuchen, Miss. Emilie","female",39," Miss",0
+"326",1217,"3","Assam, Mr. Ali","male",23," Mr",0
+"327",1218,"2","Becker, Miss. Ruth Elizabeth","female",12," Miss",3
+"328",1219,"1","Rosenshine, Mr. George (Mr George Thorne"")""","male",46," Mr",0
+"329",1220,"2","Clarke, Mr. Charles Valentine","male",29," Mr",1
+"330",1221,"2","Enander, Mr. Ingvar","male",21," Mr",0
+"331",1222,"2","Davies, Mrs. John Morgan (Elizabeth Agnes Mary White) ","female",48," Mrs",2
+"332",1223,"1","Dulles, Mr. William Crothers","male",39," Mr",0
+"333",1224,"3","Thomas, Mr. Tannous","male",27," Mr",0
+"334",1225,"3","Nakid, Mrs. Said (Waika Mary"" Mowad)""","female",19," Mrs",2
+"335",1226,"3","Cor, Mr. Ivan","male",27," Mr",0
+"336",1227,"1","Maguire, Mr. John Edward","male",30," Mr",0
+"337",1228,"2","de Brito, Mr. Jose Joaquim","male",32," Mr",0
+"338",1229,"3","Elias, Mr. Joseph","male",39," Mr",2
+"339",1230,"2","Denbury, Mr. Herbert","male",25," Mr",0
+"340",1231,"3","Betros, Master. Seman","male",27," Master",0
+"341",1232,"2","Fillbrook, Mr. Joseph Charles","male",18," Mr",0
+"342",1233,"3","Lundstrom, Mr. Thure Edvin","male",32," Mr",0
+"343",1234,"3","Sage, Mr. John George","male",27," Mr",10
+"344",1235,"1","Cardeza, Mrs. James Warburton Martinez (Charlotte Wardle Drake)","female",58," Mrs",1
+"345",1236,"3","van Billiard, Master. James William","male",27," Master",2
+"346",1237,"3","Abelseth, Miss. Karen Marie","female",16," Miss",0
+"347",1238,"2","Botsford, Mr. William Hull","male",26," Mr",0
+"348",1239,"3","Whabee, Mrs. George Joseph (Shawneene Abi-Saab)","female",38," Mrs",0
+"349",1240,"2","Giles, Mr. Ralph","male",24," Mr",0
+"350",1241,"2","Walcroft, Miss. Nellie","female",31," Miss",0
+"351",1242,"1","Greenfield, Mrs. Leo David (Blanche Strouse)","female",45," Mrs",1
+"352",1243,"2","Stokes, Mr. Philip Joseph","male",25," Mr",0
+"353",1244,"2","Dibden, Mr. William","male",18," Mr",0
+"354",1245,"2","Herman, Mr. Samuel","male",49," Mr",3
+"355",1246,"3","Dean, Miss. Elizabeth Gladys Millvina""""","female",0.17," Miss",3
+"356",1247,"1","Julian, Mr. Henry Forbes","male",50," Mr",0
+"357",1248,"1","Brown, Mrs. John Murray (Caroline Lane Lamson)","female",59," Mrs",2
+"358",1249,"3","Lockyer, Mr. Edward","male",27," Mr",0
+"359",1250,"3","O'Keefe, Mr. Patrick","male",27," Mr",0
+"360",1251,"3","Lindell, Mrs. Edvard Bengtsson (Elin Gerda Persson)","female",30," Mrs",1
+"361",1252,"3","Sage, Master. William Henry","male",14.5," Master",10
+"362",1253,"2","Mallet, Mrs. Albert (Antoinette Magnin)","female",24," Mrs",2
+"363",1254,"2","Ware, Mrs. John James (Florence Louise Long)","female",31," Mrs",0
+"364",1255,"3","Strilic, Mr. Ivan","male",27," Mr",0
+"365",1256,"1","Harder, Mrs. George Achilles (Dorothy Annan)","female",25," Mrs",1
+"366",1257,"3","Sage, Mrs. John (Annie Bullen)","female",27," Mrs",10
+"367",1258,"3","Caram, Mr. Joseph","male",27," Mr",1
+"368",1259,"3","Riihivouri, Miss. Susanna Juhantytar Sanni""""","female",22," Miss",0
+"369",1260,"1","Gibson, Mrs. Leonard (Pauline C Boeson)","female",45," Mrs",1
+"370",1261,"2","Pallas y Castello, Mr. Emilio","male",29," Mr",0
+"371",1262,"2","Giles, Mr. Edgar","male",21," Mr",1
+"372",1263,"1","Wilson, Miss. Helen Alice","female",31," Miss",0
+"373",1264,"1","Ismay, Mr. Joseph Bruce","male",49," Mr",0
+"374",1265,"2","Harbeck, Mr. William H","male",44," Mr",0
+"375",1266,"1","Dodge, Mrs. Washington (Ruth Vidaver)","female",54," Mrs",2
+"376",1267,"1","Bowen, Miss. Grace Scott","female",45," Miss",0
+"377",1268,"3","Kink, Miss. Maria","female",22," Miss",2
+"378",1269,"2","Cotterill, Mr. Henry Harry""""","male",21," Mr",0
+"379",1270,"1","Hipkins, Mr. William Edward","male",55," Mr",0
+"380",1271,"3","Asplund, Master. Carl Edgar","male",5," Master",6
+"381",1272,"3","O'Connor, Mr. Patrick","male",27," Mr",0
+"382",1273,"3","Foley, Mr. Joseph","male",26," Mr",0
+"383",1274,"3","Risien, Mrs. Samuel (Emma)","female",27," Mrs",0
+"384",1275,"3","McNamee, Mrs. Neal (Eileen O'Leary)","female",19," Mrs",1
+"385",1276,"2","Wheeler, Mr. Edwin Frederick""""","male",27," Mr",0
+"386",1277,"2","Herman, Miss. Kate","female",24," Miss",3
+"387",1278,"3","Aronsson, Mr. Ernst Axel Algot","male",24," Mr",0
+"388",1279,"2","Ashby, Mr. John","male",57," Mr",0
+"389",1280,"3","Canavan, Mr. Patrick","male",21," Mr",0
+"390",1281,"3","Palsson, Master. Paul Folke","male",6," Master",4
+"391",1282,"1","Payne, Mr. Vivian Ponsonby","male",23," Mr",0
+"392",1283,"1","Lines, Mrs. Ernest H (Elizabeth Lindsey James)","female",51," Mrs",1
+"393",1284,"3","Abbott, Master. Eugene Joseph","male",13," Master",2
+"394",1285,"2","Gilbert, Mr. William","male",47," Mr",0
+"395",1286,"3","Kink-Heilmann, Mr. Anton","male",29," Mr",4
+"396",1287,"1","Smith, Mrs. Lucien Philip (Mary Eloise Hughes)","female",18," Mrs",1
+"397",1288,"3","Colbert, Mr. Patrick","male",24," Mr",0
+"398",1289,"1","Frolicher-Stehli, Mrs. Maxmillian (Margaretha Emerentia Stehli)","female",48," Mrs",2
+"399",1290,"3","Larsson-Rondberg, Mr. Edvard A","male",22," Mr",0
+"400",1291,"3","Conlon, Mr. Thomas Henry","male",31," Mr",0
+"401",1292,"1","Bonnell, Miss. Caroline","female",30," Miss",0
+"402",1293,"2","Gale, Mr. Harry","male",38," Mr",1
+"403",1294,"1","Gibson, Miss. Dorothy Winifred","female",22," Miss",1
+"404",1295,"1","Carrau, Mr. Jose Pedro","male",17," Mr",0
+"405",1296,"1","Frauenthal, Mr. Isaac Gerald","male",43," Mr",1
+"406",1297,"2","Nourney, Mr. Alfred (Baron von Drachstedt"")""","male",20," Mr",0
+"407",1298,"2","Ware, Mr. William Jeffery","male",23," Mr",1
+"408",1299,"1","Widener, Mr. George Dunton","male",50," Mr",2
+"409",1300,"3","Riordan, Miss. Johanna Hannah""""","female",27," Miss",0
+"410",1301,"3","Peacock, Miss. Treasteall","female",3," Miss",2
+"411",1302,"3","Naughton, Miss. Hannah","female",27," Miss",0
+"412",1303,"1","Minahan, Mrs. William Edward (Lillian E Thorpe)","female",37," Mrs",1
+"413",1304,"3","Henriksson, Miss. Jenny Lovisa","female",28," Miss",0
+"414",1305,"3","Spector, Mr. Woolf","male",27," Mr",0
+"415",1306,"1","Oliva y Ocana, Dona. Fermina","female",39," Miss",0
+"416",1307,"3","Saether, Mr. Simon Sivertsen","male",38.5," Mr",0
+"417",1308,"3","Ware, Mr. Frederick","male",27," Mr",0
+"418",1309,"3","Peter, Master. Michael J","male",27," Master",2

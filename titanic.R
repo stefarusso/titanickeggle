@@ -37,7 +37,6 @@ train$Age_median[is.na(train$Age)]=summary(train$Age)["Median"]
 
 
 #Titles cleaning
-library(stringr)
 train$Title = str_split_fixed(str_split_fixed(train$Name,",",2)[,2], ". ", 2)[,1]
 train$Title = as.factor(train$Title)
 train$Title[760]=" Miss" #the countess
@@ -53,6 +52,7 @@ train$Title[which(train$Title==" Mlle")] = " Miss"
 train$Title[which(train$Title==" Mme")] = " Mrs"
 train$Title[which(train$Title==" Sir")] = " Mr"
 train$Title[which(train$Title==" Rev")] = " Mr"
+train$Title[which(train$Title==" Don")] = " Mr"
 train$Title=droplevels(train$Title)
 
 # plot = ggplot(train, aes(x=Title,fill=Survived))+
@@ -99,11 +99,50 @@ train$FamilySize = train$SibSp + train$Parch
 #tmp = data.frame(Family_size=names(tmp),surv_rates=unname(tmp))
 #rm(tmp,plot)
 
+#ML--------------------------------------------------
+train_BAK=train 
+train=train_BAK[,c(1:5,13,14:15)]
+write.csv(train,file='train_clean.csv')
+
+#-----------------------------------------------------------------------
+
+#Same cleaning on the test, raw data
+#
+#GRAFICI
+#Age
+#
+#median
+test$Age_median=test$Age
+test$Age_median[is.na(test$Age)]=summary(test$Age)["Median"]
+
+#Titles cleaning
+test$Title = as.character(test$Name)
+test$Title = str_split_fixed(str_split_fixed(test$Title,",",2)[,2],". ",2)[,1]
+test$Title = as.factor(test$Title)
+test[which(test$Title==" Ms"),"Title"]=" Miss"
+test[which(test$Title==" Col"),"Title"]=" Mr"
+test$Title[which(test$Title==" Dr" & test$Sex=="female")] = " Miss"
+test$Title[which(test$Title==" Dr" & test$Sex=="male")] = " Mr"
+test$Title[which(test$Title==" Rev")] = " Mr"
+test$Title[which(test$Title==" Dona")] = " Miss"
+test$Title=droplevels(test$Title)
+
+#SibSp
+#Parch
+#FamiliSize
+test$FamilySize = test$SibSp + test$Parch
+#tmp = table(train[,c("Survived","FamilySize")])
+#tmp = tmp[2,]/colSums(tmp)
+#tmp = data.frame(Family_size=names(tmp),surv_rates=unname(tmp))
+#rm(tmp,plot)
+
 
 
 #ML--------------------------------------------------
-train_BAK=train
-train=train_BAK[,c(1:5,13,14:15)]
-#write.csv(train,file='train_clean.csv')
+test_BAK=test
+test=test_BAK[,c(1:4,12:14)]
+write.csv(test,file='test_clean.csv')
+
+
 
 
