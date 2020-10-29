@@ -16,8 +16,6 @@ final_x = test.drop(["Unnamed: 0","PassengerId","Name"],axis=1)
 #final_x["Age_median"].isnull().values.any()
 #cerca se ci sono null
 
-
-
 from sklearn.model_selection import train_test_split #per estrarre outofbag
 #one-hot encoding of categorical data
 #Pclass
@@ -33,6 +31,16 @@ final_x = pd.concat([final_x,pd.get_dummies(final_x["Title"],prefix="Title")],ax
 
 #data normalization per valori int e float, in modo che incrementi nei valori siano esplicativi in qualsiasi delle feature
 #IMPORTANTE USARE LE STESSE MU E SIGMA SU TEST E TRAIN
-train_x["Age_median"].describe()["mean"]
+train_mean_age = train_x["Age_median"].describe()["mean"]
+train_std_age = train_x["Age_median"].describe()["std"]
+
+train_x["Age_median"] = (train_x["Age_median"]-train_mean_age)/(train_std_age)
+final_x["Age_median"] = (final_x["Age_median"]-train_mean_age)/(train_std_age)
+
+train_mean_family = train_x["FamilySize"].describe()["mean"]
+train_std_family = train_x["FamilySize"].describe()["std"]
+
+train_x["FamilySize"] = (train_x["FamilySize"]-train_mean_family)/(train_std_family)
+final_x["FamilySize"] = (final_x["FamilySize"]-train_mean_family)/(train_std_family)
 
 

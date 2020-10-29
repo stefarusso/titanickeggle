@@ -3,9 +3,11 @@
 ## Data Handling
 Train dataset has few features, but not all of them can be used as dataset for the alghoritm.
 
-"PassengerId" | "Pclass" | "Name" | "Sex" | "Age" | "SibSp" | "Parch" | "Ticket" | "Fare" | "Cabin" | "Embarked"
---------------|----------|--------|-------|-------|---------|---------|----------|--------|---------|-----------|
- 892 | 3 | "Kelly, Mr. James" | "male" | 34.5 | 0 | 0 | "330911" | 7.8292 | "" | "Q"
+```
+"PassengerId"  "Pclass"  "Name"  "Sex"  "Age"  "SibSp"  "Parch"  "Ticket"  "Fare"  "Cabin"  "Embarked"
+
+ 892  3  "Kelly, Mr. James"  "male"  34.5  0  0  "330911"  7.8292  ""  "Q"
+```
 
 Pclass refers to the ticket class of the passenger and is a direct information of social class and economical wellness of the passenger whose surely changed the probability of surviving during sinking.
 Looking at the survival rate it clear that the class of the passenger change their survival probability.
@@ -75,6 +77,20 @@ In the end I have the cleaned dataframe whose will be exported as csv to be impo
  $ Pclass    : Factor w/ 3 levels "1","2","3": 3 1 3 1 3 3 1 3 3 2 ...
  $ Name      : Factor w/ 891 levels "Abbing, Mr. Anthony",..: 109 191 358 277 16 559 520 629 417 581 ...
  $ Sex       : Factor w/ 2 levels "female","male": 2 1 1 1 2 2 2 2 1 1 ...
- $ Title     : Factor w/ 5 levels " Don"," Master",..: 4 5 3 5 4 4 4 2 5 5 ...
+ $ Title     : Factor w/ 4 levels " Master",..: 4 5 3 5 4 4 4 2 5 5 ...
  $ FamilySize: int  1 1 0 1 0 0 0 4 2 1 ...
 ```
+
+Before that the data can be used as input for the most common alghritms it require to be prepared. Categorical data need to be formatted in one-hot encoding and numerical data need to be normalized so the alghritm will converge more easly and the changes in the different features will have the same weight in the training. It's important that same mean and std deviation is used in the normalization for the train and the test data.
+
+```
+train_x.head()
+   Age_median  FamilySize  Pclass_1  Pclass_2  Pclass_3  Sex_female  Sex_male	Title_ Master	Title_ Miss  Title_ Mr  Title_ Mrs  
+0   -0.565419    0.059127         0         0         1           0         1		    0		  0          1           0  
+1    0.663488    0.059127         1         0         0           1         0               0 		  0          0           1  
+2   -0.258192   -0.560660         0         0         1           1         0		    0		  1          0           0  
+3    0.433068    0.059127         1         0         0           1         0	            0		  0          0           1  
+4    0.433068   -0.560660         0         0         1           0         1	            0             0          1           0  
+
+```
+
