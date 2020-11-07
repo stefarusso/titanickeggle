@@ -43,4 +43,14 @@ train_std_family = train_x["FamilySize"].describe()["std"]
 train_x["FamilySize"] = (train_x["FamilySize"]-train_mean_family)/(train_std_family)
 final_x["FamilySize"] = (final_x["FamilySize"]-train_mean_family)/(train_std_family)
 
+#Hyperparameter tuning
 
+#svm
+#metodo più semplice
+
+
+#per validare cross-validation permette di avere misura della bontà del modello
+#from sklearn import svm
+#model = svm.SVC(kernel = "poly", degree = 3)
+#from sklearn.model_selection import cross_val_score
+#cross_val_score(model, train_x,train_y,cv=3)

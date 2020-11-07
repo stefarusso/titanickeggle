@@ -94,3 +94,13 @@ train_x.head()
 
 ```
 
+
+##HyperParameters Tuning
+
+To get the most efficent form for a estimator there is the need to find the best parameters to define their structure: c, kernel type and gamma are the one for vector classifier, other algorithms have different ones. To get them it's used a grid search over a parameter space and to find the best parameters it required a score function and a searching function as well.
+
+we can start with more simple estimator like linear vector classifier and than scale up to more complex ones to see which performs better on this dataset.
+
+#SVC
+
+
