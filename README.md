@@ -97,10 +97,20 @@ train_x.head()
 
 ## HyperParameters Tuning
 
-To get the most efficent form for a estimator there is the need to find the best parameters to define their structure: c, kernel type and gamma are the one for vector classifier, other algorithms have different ones. To get them it's used a grid search over a parameter space and to find the best parameters it required a score function and a searching function as well.
+To get the most efficent form for a estimator there is the need to find the best parameters to define their structure: c, kernel type and gamma are the one for vector classifier, other algorithms have different ones. To get them it's used a grid search over a parameter space and to find the best parameters it required a score function and a searching function as well. Nested cross validation is a common method for estimator which require to tune their parameter, because use the same data to estimate the efficency and tuning the parameters.
 
 we can start with more simple estimator like linear vector classifier and than scale up to more complex ones to see which performs better on this dataset.
 
-# SVC
+### SVC
 
+if we start with standard parameters for support vector machine and we optain an estimate of accuracy with cross validation:
+
+```
+
+C = 1, kernel = "rbf", gamma = 1 / ( number_features * var(X) )
+score : 0.832
+
+```
+
+if we don't know what are the best parameters we can search on a grid between kernels=["linear","rbf"], C=[1,10,100,1000], gamma=[0.1, 0.01, 0.001, 0.0001], and see with combination lead to best score. If even the parameter space is unknown it can be uses a randomized space where the space is campionated random.
 

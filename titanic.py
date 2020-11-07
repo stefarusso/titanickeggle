@@ -48,9 +48,39 @@ final_x["FamilySize"] = (final_x["FamilySize"]-train_mean_family)/(train_std_fam
 #svm
 #metodo più semplice
 
+from sklearn.svm import SVC
+from sklearn.model_selection import GridSearchCV, cross_val_score, KFold
+import numpy as np
+from sklearn.model_selection import cross_val_score
+
+#controllo senza variazioni
+#valori std : C:1 , kernel:rbf, gamma: 1/(numero_features * varianza_x)
+model = SVC()
+score = cross_val_score(model, X=train_x, y=train_y,cv=3)
+score.mean()
+#0.8327721661054994
+
+param_grid = [
+  {'C': [1, 10, 100, 1000], 'kernel': ['linear']},
+  {'C': [1, 10, 100, 1000], 'gamma': [0.01 ,0.001, 0.0001, 0.00001], 'kernel': ['rbf']},
+ ]
+
+cross_validator = KFold(n_splits=3, shuffle=True) # definisce le regole del crossvlaidation
+
+tuner = GridSearchCV(estimator=model, param_grid=param_grid, scoring=None, cv= cross_validator)
+tuner.fit(train_x,train_y)
+tuner.best_estimator_
+
+score = cross_val_score(tuner, X=train_x, y=train_y, cv=cross_validator)
+score.mean()
+#0.8237934904601572
+#non sembra si trovi nulla di meglio
+
+
 
 #per validare cross-validation permette di avere misura della bontà del modello
 #from sklearn import svm
 #model = svm.SVC(kernel = "poly", degree = 3)
 #from sklearn.model_selection import cross_val_score
 #cross_val_score(model, train_x,train_y,cv=3)
+
